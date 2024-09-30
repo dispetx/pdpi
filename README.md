@@ -29,7 +29,7 @@ that:
 $$P(A) + P(A^{c}) = 1.$$
 
 This provides an interface to express or compute the probability of an event in
-terms of the complement. In general, the exact definition of an event \(A\)
+terms of the complement. In general, the exact definition of an event $A$
 determines such a partition and the underlying problem may be easier or harder
 depending on a particular choice. This is an interpretation of a general
 strategy of decomposing a problem into subproblems.
