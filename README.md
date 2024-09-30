@@ -14,7 +14,7 @@ $A_{1}, A_{2}, A_{3}, \dots$, such that:
 
  - $$A_i \subseteq X \text{ for each } i$$,
  - $$A_i \cap A_j = \emptyset \text{ for all } i \neq j$$,
- - $$ \bigcup_{i} A_i = X.$$
+ - $$\bigcup_{i} A_i = X.$$
 
 meaning the sets $A_1, A_2, A_3, \dots$ form a disjoint cover of $X$.
 
