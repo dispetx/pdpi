@@ -1,20 +1,21 @@
 # The Public Domain Programming Interface
 
 **Abstract**
+
 This paper introduces public domain internet as a special case of a
 concept which we name public domain programming interface. It is based
 on the dichotomy between public and not public.
 \end{abstract}
 
-\section{Introduction}
+**Introduction**
 
 In mathematics, there exists a notion of a partition. If $X$ is a set, then a
 partition of the set $X$ is any collection of sets
 $A_{1}, A_{2}, A_{3}, \dots$, such that:
 
- - $$A_i \subseteq X for each i,
- - A_i \cap A_j = \emptyset for all i \neq j,
- - \bigcup_{i} A_i = X.$$
+ - $$A_i \subseteq X for each i$$,
+ - $$A_i \cap A_j = \emptyset for all i \neq j$$,
+ - $$ \bigcup_{i} A_i = X.$$
 
 meaning the sets $A_1, A_2, A_3, \dots$ form a disjoint cover of $X$.
 
@@ -43,7 +44,7 @@ In general, one can see any assumption or an implication to induce such an
 interface. Thus, it is equally important to check if the assumptions are
 well choosen too. The assumptions are arbitrary.
 
-\subsection{Public Domain}
+**Public Domain**
 
 In this paper the word public is taken as a primitive just as the increment or 
 successor operation is taken as a primitive in Peano's axioms of natural
