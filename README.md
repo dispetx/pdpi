@@ -2,8 +2,8 @@
 
 **Abstract**
 
-This paper introduces public domain internet as a special case of a
-concept which we name public domain programming interface. It is based
+This paper introduces the public domain internet as a special case of a
+concept which we name the public domain programming interface. It is based
 on the dichotomy between public and not public.
 \end{abstract}
 
