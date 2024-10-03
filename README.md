@@ -2,8 +2,8 @@
 
 **Abstract**
 
-This paper introduces the public domain internet as a special case of a
-concept which we name the public domain programming interface. It is based
+This paper introduces public domain internet as a special case of a
+concept which we name public domain programming interface. It is based
 on the dichotomy between public and not public.
 
 **Introduction**
@@ -37,36 +37,26 @@ strategy of decomposing a problem into subproblems.
 In any case, the exact choice of a partition or partitions one is willing to
 consider is usually not obvious a priori. Although there are natural partitions,
 they may not be obvious. Thus, it is important to check if the partition is well
-choosen.
+chosen.
 
 In general, one can see any assumption or an implication to induce such an
 interface. Thus, it is equally important to check if the assumptions are
-well choosen too. The assumptions are arbitrary.
+well chosen too. The assumptions are arbitrary.
 
 **Public Domain**
 
-In this paper the word public is taken as a primitive just as the increment or 
-successor operation is taken as a primitive in Peano's axioms of natural
-numbers. We condition on all information being public.
-
 **Axiom 1** *All information is public.*
-
-This is the simplest and the most natural assumption which avoids the question:
-Is $X$ public? It just assumes that $X$ is public and we are free to do so.
-We follow this axiom because otherwise we would need to define the primitive
-public. There are many choices for a possible definition and we want to avoid
-all of them.
-
-If we have declared all information as public, didn't we lose the partition of
-the problem in it's public and private part? No. The non-public part is an empty
-set and we use just the terminology appropriate for discussing the public
-part. 
 
 **Axiom 2** *Everyone is root.*
 
-To assume otherwise is to come up with a partition of those who are root and
-those who are not root. As before, there are many such choices and we avoid
-them all.
+# Public Domain Internet
 
-**Definition** *(The Public Domain Internet) The public domain internet is the set
+**Definition** *(Public Domain Internet) A public domain internet is the set
 of all public internet hosts which satisfy axioms 1 and 2.*
+
+**Implementation**
+
+Currently, in a Github repository dispetx/ip there is a file ipaddress which
+contains the IPv4 address of a public domain internet host. The IPv4 address
+changes aproximatelly once a day and such changes are reflected in the ip
+repository. 
