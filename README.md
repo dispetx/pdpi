@@ -176,3 +176,10 @@ of his first discoveries was the fact that the Zeta function of 2 is equal to
 $\frac{\pi^2}{6}$. The Zeta function is an infinite series defined by:
 
 $$\zeta(s) = \sum_{n=1}^{\infty} \frac{1}{n^{s}}$$
+
+Euler did not have a formal proof but he was convinced since he calculated
+both sides to 20 decimal places.
+
+He also rewrote the Zeta function as an infinite product:
+
+$$\zeta(s) = \prod_{primes p} (1 - p^-s)^-1$$
