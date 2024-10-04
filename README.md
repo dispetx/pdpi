@@ -155,3 +155,24 @@ Module PublicDomainInterface.
 
 End PublicDomainInterface.
 ```
+
+It is probably true that any nonsense can be made formal truth. One can come up
+with any number of arbitrary axioms and definitions and formalise anything. As
+long as nobody finds a contradiction, the theory is considered or believed to
+be consistent or true. Before machine-proof-checkers like Coq it was very hard
+to be sure about formal reasoning. Formal reasoning is a tricky thing, where it
+is easy to overlook something or make other errors in the process. Such errors
+can invalidate the whole argument or proof. It takes years of practice to be
+able to think "formally" about simple mathematical objects. Although in society
+in general everything is formalized to some extent, many such formal structures
+are arbitrary and can be changed. We are usually trained to exist inside of
+those formal structures, but we are rarely invited to change them or to even
+think about them. Let us consider three categories of people: mathematicians,
+computer scientists and the rest. For example, let us start with Euler. 
+
+Euler is considered to be one of the most productive mathematicians ever to
+live when one considers just the amount of words in mathematical papers. One
+of his first discoveries was the fact that the Zeta function of 2 is equal to
+pi squaered over six. The Zeta function is an infinite series defined by:
+
+$$\zeta \sigma_{n=1}^{\inf} \frac{1}{n^{s}}$$
