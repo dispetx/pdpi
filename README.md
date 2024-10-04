@@ -175,4 +175,4 @@ live when one considers just the amount of words in mathematical papers. One
 of his first discoveries was the fact that the Zeta function of 2 is equal to
 pi squaered over six. The Zeta function is an infinite series defined by:
 
-$$\zeta(s) = \sum_{n=1}^{\inf} \frac{1}{n^{s}}$$
+$$\zeta(s) = \sum_{n=1}^{\infinity} \frac{1}{n^{s}}$$
