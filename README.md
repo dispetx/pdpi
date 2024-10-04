@@ -180,6 +180,30 @@ $$\zeta(s) = \sum_{n=1}^{\infty} \frac{1}{n^{s}}$$
 Euler did not have a formal proof but he was convinced since he calculated
 both sides to 20 decimal places.
 
-He also rewrote the Zeta function as an infinite product:
+He also rewrote the Zeta function as an infinite product of primes and some
+questions related to the generalisations of the Zeta function are considered
+to be one of the most important questions in pure mathematics. That branch
+of mathematics, namely number theory, can be considered as one of the most
+applied. Specifically when one considers its use in computers. A lot of other
+mathematicians were involved in this development, but one of the most important
+contributions was the introduction of congruence by Gauss in 1801. Galois, a 
+mathematican who was shot in a duel, made fundamental discoveries which later
+motivated Grothendieck to do the impossible. In the mean time, a French
+mathematician De Moivre had to run for his life from France to England, where he 
+could not find employment and survived gambling in the coffe-houses of London.
+He wrote the first book on probability theroy. Galois was expelled from the
+university due to its political activities. Grothendieck dissapeared similarly.
+Grothendieck died in 2014 and is by many considered as the greatest
+mathematician of the 20th century. 
 
-$$\zeta(s) = \prod_{primes p} (1 - p^{-s})^{-1}$$
+Although Gauss was greatfull because he was recieving support from some
+authority and could focus on pure mathematics, it is very hard to believe
+that Gauss would say anything that could put his position in danger.
+In contrast, we can assume that Galois and Grothendieck would not think,
+but express their concerns.
+
+The most famous student of Grothendieck is a french mathematician Deligne.
+In 2018, he spoke about equality in mathematics in honor of Vladimir V., 
+who recently died. At the end, he related the axiomatic aproach in which it is
+not possible to form particular statements, with the language of 1984 in which
+it is impossible to produce a heretical thought.
