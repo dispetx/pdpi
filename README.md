@@ -182,4 +182,4 @@ both sides to 20 decimal places.
 
 He also rewrote the Zeta function as an infinite product:
 
-$$\zeta(s) = \prod_{primes p} (1 - p^-s)^-1$$
+$$\zeta(s) = \prod_{primes p} (1 - p^{-s})^{-1}$$
