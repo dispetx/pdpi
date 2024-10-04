@@ -173,6 +173,6 @@ computer scientists and the rest. For example, let us start with Euler.
 Euler is considered to be one of the most productive mathematicians ever to
 live when one considers just the amount of words in mathematical papers. One
 of his first discoveries was the fact that the Zeta function of 2 is equal to
-pi squaered over six. The Zeta function is an infinite series defined by:
+$\frac{pi^2}{6}. The Zeta function is an infinite series defined by:
 
-$$\zeta(s) = \sum_{n=1}^{\infinity} \frac{1}{n^{s}}$$
+$$\zeta(s) = \sum_{n=1}^{\infy} \frac{1}{n^{s}}$$
