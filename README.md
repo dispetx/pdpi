@@ -157,7 +157,7 @@ End PublicDomainInterface.
 ```
 
 It is probably true that any nonsense can be made formal truth. One can come up
-with any number of arbitrary axioms and definitions and formalise anything. As
+with any number of arbitrary axioms and definitions and formalize anything. As
 long as nobody finds a contradiction, the theory is considered or believed to
 be consistent or true. Before machine-proof-checkers like Coq it was very hard
 to be sure about formal reasoning. Formal reasoning is a tricky thing, where it
@@ -175,4 +175,4 @@ live when one considers just the amount of words in mathematical papers. One
 of his first discoveries was the fact that the Zeta function of 2 is equal to
 pi squaered over six. The Zeta function is an infinite series defined by:
 
-$$\zeta \sigma_{n=1}^{\inf} \frac{1}{n^{s}}$$
+$$\zeta(s) = \sum_{n=1}^{\inf} \frac{1}{n^{s}}$$
