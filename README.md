@@ -167,8 +167,7 @@ able to think "formally" about simple mathematical objects. Although in society
 in general everything is formalized to some extent, many such formal structures
 are arbitrary and can be changed. We are usually trained to exist inside of
 those formal structures, but we are rarely invited to change them or to even
-think about them. Let us consider three categories of people: mathematicians,
-computer scientists and the rest. For example, let us start with Euler. 
+think about them. 
 
 Euler is considered to be one of the most productive mathematicians ever to
 live when one considers just the amount of words in mathematical papers. One
@@ -190,20 +189,23 @@ contributions was the introduction of congruence by Gauss in 1801. Galois, a
 mathematican who was shot in a duel, made fundamental discoveries which later
 motivated Grothendieck to do the impossible. In the mean time, a French
 mathematician De Moivre had to run for his life from France to England, where he 
-could not find employment and survived gambling in the coffe-houses of London.
-He wrote the first book on probability theroy. Galois was expelled from the
+could not find employment, have survived gambling in the coffe-houses of London
+and wrote the first book on probability theory. Galois was expelled from the
 university due to its political activities. Grothendieck dissapeared similarly.
 Grothendieck died in 2014 and is by many considered as the greatest
 mathematician of the 20th century. 
 
 Although Gauss was greatfull because he was recieving support from some
-authority and could focus on pure mathematics, it is very hard to believe
+authority and hence could focus on pure mathematics, it is very hard to believe
 that Gauss would say anything that could put his position in danger.
 In contrast, we can assume that Galois and Grothendieck would not think,
 but express their concerns.
 
 The most famous student of Grothendieck is a french mathematician Deligne.
-In 2018, he spoke about equality in mathematics in honor of Vladimir V., 
-who recently died. At the end, he related the axiomatic aproach in which it is
-not possible to form particular statements, with the language of 1984 in which
-it is impossible to produce a heretical thought.
+In 2018, he spoke about equality in mathematics at the memmorial conference in
+honor of Vladimir Voedovsky who was inspired by Grothendieck and was one of the
+first mathematicians who relied on computers to check mathematical proofs.
+At the end of the talk in an informal remark, Deligne expressed his concerns
+related the axiomatic aproach envisoned by Voevodsky in which it is not possible
+to form particular statements, with the language of 1984 in which it is impossible
+to produce a heretical thought.
