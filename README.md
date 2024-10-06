@@ -322,6 +322,36 @@ internet, we obtained the predictor $f: \{z\} \to \{z\}$ defined by:
 
 $$f(z) = z \text{ for all } z.$$
 
+Machine learning is the process of finding an appropriate such predictor
+functions. If a predictor predicts well no one is concerned about if all
+assumptions hold or is something true. The notion of truth in mathematics
+is very different then in other contexts. In mathematics, truth has nothing
+to do with the semantic content of mathematical statements but only with
+formal structure encoded in some syntax. Two statements that are equivalent
+just have the same truth value in the sense that a statement $A$ is true, 
+when $B$ is true and vice versa. It does not tell anything about the semantic
+relationship between the two. In principle, one could do mathematics just 
+as well without using the words true or false. 
+Statistics was developing in
+science and at the start was very important to have a belief that your
+model is true in some sense or that you are using it appropriately.
+Over the years, those who asked the questions regarding the validity of
+assumptions, came to the realisation that is very hard or impossible to
+check if your assumptions hold. Most of the time one is not sure but 
+just assumes that the assumptions on which the model is based hold. That is
+the minority. Most uses of statistics present blind use of statistical
+methods and all such results are very hard to interpret or analyze.
 
+The development of companies like Google, Apple, Microsoft and others for
+the most part did not serve the public domain well. Although the indexing
+of internet resources which made Google famos or the development of the 
+user interfaces by Apple and Microsoft could be seen as a fantastic victory
+in markets, design, science and engineering, all those present a negative
+development with respect to the society. If there was no Apple or Microsoft,
+everyone would use superior command-line interfaces and the public domain
+would be more healthy. People would not stare for hours at the screen
+scrolling or pushing buttons, but they would just have an empty piece of paper.
 
-
+The failure of the Linux kernel and its distributions comes from equating
+desktop users with point-and-click users, instead of assuming that every 
+user is a command-line user. 
