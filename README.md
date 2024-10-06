@@ -61,6 +61,11 @@ contains the IPv4 address of a public domain internet host. The IPv4 address
 changes aproximatelly once a day and such changes are reflected in the ip
 repository. 
 
+
+# Junk
+
+The rest of this document is assumed to be junk.
+
 ```coq
 (* Import necessary modules for sets and basic types *)
 Require Import Coq.Sets.Ensembles.
@@ -69,6 +74,9 @@ Require Import Coq.Sets.Powerset_facts.
 Require Import Coq.Reals.Rbase.
 
 (* Definitions for the public domain programming interface *)
+
+
+
 
 Module PublicDomainInterface.
 
@@ -156,21 +164,20 @@ Module PublicDomainInterface.
 End PublicDomainInterface.
 ```
 
+## A blink at history
+
 It is probably true that any nonsense can be made formal truth. One can come up
-with any number of arbitrary axioms and definitions and formalize anything. As
+with any number of arbitrary axioms or definitions and formalize anything. As
 long as nobody finds a contradiction, the theory is considered or believed to
 be consistent or true. Before machine-proof-checkers like Coq it was very hard
-to be sure about formal reasoning. Formal reasoning is a tricky thing, where it
-is easy to overlook something or make other errors in the process. Such errors
-can invalidate the whole argument or proof. It takes years of practice to be
-able to think "formally" about simple mathematical objects. Although in society
+to be sure about formal reasoning. Although in society
 in general everything is formalized to some extent, many such formal structures
 are arbitrary and can be changed. We are usually trained to exist inside of
 those formal structures, but we are rarely invited to change them or to even
 think about them. 
 
 Euler is considered to be one of the most productive mathematicians ever to
-live when one considers just the amount of words in mathematical papers. One
+live considering just the amount of words in mathematical papers. One
 of his first discoveries was the fact that the Zeta function of 2 is equal to
 $\frac{\pi^2}{6}$. The Zeta function is an infinite series defined by:
 
@@ -183,16 +190,19 @@ He also rewrote the Zeta function as an infinite product of primes and some
 questions related to the generalisations of the Zeta function are considered
 to be one of the most important questions in pure mathematics. That branch
 of mathematics, namely number theory, can be considered as one of the most
-applied. Specifically when one considers its use in computers. A lot of other
+applied areas of mathematics, specifically when one considers its use in
+computers.
+
+A lot of other
 mathematicians were involved in this development, but one of the most important
 contributions was the introduction of congruence by Gauss in 1801. Galois, a 
 mathematican who was shot in a duel, made fundamental discoveries which later
-motivated Grothendieck to do the impossible. In the mean time, a French
+motivated Grothendieck to do the impossible. In the mean time, another french
 mathematician De Moivre had to run for his life from France to England, where he 
-could not find employment, have survived gambling in the coffe-houses of London
+could not find employment, had to survive gambling in the coffe-houses of London
 and wrote the first book on probability theory. Galois was expelled from the
 university due to its political activities. Grothendieck dissapeared similarly.
-Grothendieck died in 2014 and is by many considered as the greatest
+Grothendieck died in 2014 and is by many considered to be the greatest
 mathematician of the 20th century. 
 
 Although Gauss was greatfull because he was recieving support from some
@@ -201,11 +211,117 @@ that Gauss would say anything that could put his position in danger.
 In contrast, we can assume that Galois and Grothendieck would not think,
 but express their concerns.
 
-The most famous student of Grothendieck is a french mathematician Deligne.
-In 2018, he spoke about equality in mathematics at the memmorial conference in
-honor of Vladimir Voedovsky who was inspired by Grothendieck and was one of the
+The most famous student of Grothendieck, Pierre Deligne,
+spoke about equality in mathematics at the memmorial conference in honor of
+Vladimir Voevdovsky of the Institute of Advanced Study at Princeton, who was
+inspired by Grothendieck and was one of the
 first mathematicians who relied on computers to check mathematical proofs.
-At the end of the talk in an informal remark, Deligne expressed his concerns
-related the axiomatic aproach envisoned by Voevodsky in which it is not possible
-to form particular statements, with the language of 1984 in which it is impossible
-to produce a heretical thought.
+At the end of the talk in an informal remark, Deligne expressed his concerns and
+drew a paralel between the axiomatic aproach envisioned by Voevodsky, in which he
+wanted to make it impossible for some statements to be true, and the language of
+1984 by Orwell, in which it is supposed to be impossible to produce a heretical
+thought. 
+
+Grothendieck was born in Berlin in 1928 in a country where heresy was expensive.
+A 100 years later Germany is one of the safest countries in the world to express
+heresy. In principle, we would like to believe that Germany is as safe as any
+other western democratic country. Let us look at a few counter examples. The best
+known is the story of Julian Assange. Around the same time, Aaron Swartz
+could not handle the pressure resulting from his political activism and commited
+suicide in 2011. In 2013 he was posthumously inducted into the Internet Hall of
+Fame.
+
+## Fundamental Research
+
+I am sure that this paper will at first appear as a heresy, as something one should
+not even think about or just as an abuse of notation and language.
+
+There is nothing new in this paper in the terms of structure. It is not like inventing
+packet-switching around 1959 by Paul Baran, or implementing UNIX by Ken Thompson ten 
+years later. It is more like adding the number 0 or imagining a concept of a group
+like Galois.
+
+It is easy to declare disagreement with axioms 1 and 2 or with the definition of the
+public domain internet informally. But it is very hard, expensive and pointless
+to argue against it formally or rigorously (Why?).
+
+Currently, almost all users of the public domain internet are some malicious programs.
+From 21.09.2024 until 06.10.2024 the public domain internet has logged around
+3500 requests. It is interesting to see web trafic to the public domain internet
+without any traffic from regular users. Currently there are no users, thus almost
+every request represents a bad actor who scans the entire internet address space
+for vulnerabilities. 
+
+In order to implement the public domain internet we had to open a port. In fact, we 
+have at least 3 ports open: 22 (ssh), 80 (http) and 9148 (Git). Is that legal? On 
+the other hand, should that be illegal? Could someone in a western country be 
+charged with terrorism for providing attackers a root access on a host in a particular
+country. Since access is free for anyone, attackers can also use such hosts to
+perform attacks. Such an architecture raises far more important legal questions instead
+of technical challenges. There are no technical hurdles and the public domain internet
+as specified in this paper could have been implemented together with the specification
+of the Transfer Control Protocol (TCP) in 1981. It is not clear exactly why it took so
+long, but that certainly tells us something about the society. That is the main goal of
+the public domain internet - to provide some data on society. 
+
+Logs of an exposed web server provide information about the requests and responses. 
+They should be public. If the IP address associated with a particular internet service
+is not advertised, does the exposure of server logs constitute a violation of
+privacy of attackers? That is also more a legal question then a technical one. 
+But note that all legal questions are at the end questions in pure mathematics or
+programming questions because they exhibit a formal structure. It is interesting
+that very small number of people are interested in such class of problems which 
+have a great effect on the environment in which they live.
+
+### Something will occur
+
+This is an experiment. We are participants in that experiment. We do not know
+what will occur, but we are sure that something will occur. Similarly, we do
+not understand the formal legal system, but every once in a while we are a part
+of legal experiments and something occurs. For example, if Aaron Schwarz was
+not charged with two counts of wire fraud and eleven violations of the Computer
+Fraud and Abuse Act, carrying a cumulative maximum penalty of $1 million in fines,
+35 years in prison, asset forfeiture, restitution, and supervised release, he
+would probably be good. He declined a plea bargain under which he would have
+served six months in federal prison. Two days after the prosecution rejected
+a counter-offer by Swartz, he was found dead in his Brooklyn apartment.
+
+Swartz did not play a dangerous game with nuclear reactors, but he performed an
+experiment with transfer of bytes from one host to another. He was using the 
+internet in its most natural and simple form. Compared to the "wrongdoing", those
+charges could be called structural violence.
+
+In this paper, we equate law with interface. If $X$, then $Y$, is an
+interface. If such an interface is isomorphic to some program, we call it 
+a programming interface. Any legal interface can be a programming interface.
+We can expect that in the future almost all legal interfaces will be
+increasingly more programming interfaces. Interfaces in general are
+controversial. Just like mathematicians usually do not think about the foundations
+of mathematics, people in general usually do not think about their foundations
+encoded in the legal structure. Legal structure is arbitrary.
+
+The public domain internet is important because it raises a lot of formal legal
+questions which are almost the same as any legal questions related to the use
+of so called artificial inteligence.
+
+#### AI Safety
+
+**What is artificial inteligence?**
+
+Consider a rock on the ground. It is a predictor of its own position. Given any
+coordinate system that rock can predict its position with the 100 percent
+accuracy modulo measuring errors. 
+
+For example, instead of a rock, let $P$ be a point in the complex plane. 
+Consider the training set $z_1, \dots, z_n$ denoting a sequence of points
+where each $z_i$ is the point $P$. Given this traning set of $n$ complex
+numbers, we want to predict the point $P$. 
+
+After a lot of training by GPUs and CPUs of the distributed public domain
+internet, we obtained the predictor $f: {P} \to {P}$ defined by:
+
+$$f(z) = z \text{ for all } z.$$
+
+
+
+
