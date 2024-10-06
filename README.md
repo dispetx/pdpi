@@ -231,8 +231,6 @@ could not handle the pressure resulting from his political activism and commited
 suicide in 2011. In 2013 he was posthumously inducted into the Internet Hall of
 Fame.
 
-## Fundamental Research
-
 I am sure that this paper will at first appear as a heresy, as something one should
 not even think about or just as an abuse of notation and language.
 
@@ -304,9 +302,6 @@ The public domain internet is important because it raises a lot of formal legal
 questions which are almost the same as any legal questions related to the use
 of so called artificial inteligence.
 
-#### AI Safety
-
-**What is artificial inteligence?**
 
 Consider a rock on the ground. It is a predictor of its own position. Given any
 coordinate system that rock can predict its position with the 100 percent
@@ -354,4 +349,51 @@ scrolling or pushing buttons, but they would just have an empty piece of paper.
 
 The failure of the Linux kernel and its distributions comes from equating
 desktop users with point-and-click users, instead of assuming that every 
-user is a command-line user. 
+user is a command-line user. Similar failure is reflected in the talk by
+Mike Acton, one of the most famous game developers. At the C++ confrerence
+in 2014, Mike preached about the fundamental failure of most programmers
+to have in mind the basic distinction between the hardware and the software.
+At the same time, Mike fails to see a distinction between development and
+software development. That does not imply that Mike should solve some usefull
+problems of public interest, but just that if everyone were Mike, then 
+no one would be left to do such work. Mike is just a placeholder for a set of
+industries that write software. Like most people, Mike thinks that since he
+lives in a western democracy he is free to just eat donuts and play games.
+If he was born in a dictatorship, there is no doubt that Mike would stand 
+up, with the same force as presented in the talk. Just as Mike lives in its
+game-dev bubble, Linus, Greg and others have their safe kernel bubbles. 
+"We do not deal with anything else and would not even think about anything 
+else except that on the line hardware - kernel."  
+
+All these inventions related to user interfaces with buttons, icons, will 
+eventually be seen as a period of stagnation or negative development.
+The same is with AI. We do not even know how to interpret basic statistical
+models nor do we have a consensus about anything, but we somehow assume 
+that we need to include more information and do things faster.
+
+At the end, all of the important questions in AI safety reduce just to the
+formal legal interpretation. That does not have to do anything with AI and 
+it has everything to do with relations between humans in every sense.
+
+For example, every cybersecurity question or AI-safety question is determined
+by a an interpretatiton. Cyberattacks like ransomware attacks
+are not a problem at all. The problem lies just in our interpretation of such
+attacks. It is the legal structure and every legal, financial and existential
+pressure that appear as a ransomware problem. But in a normal society, any
+transformation of bytes should not have any effect on a well-being of a human
+being. The fact that many transformations of bytes can lead to bad situations
+is a human problem of dealing with a situation and it has nothing to do with
+bytes.
+
+What is the most important characteristic of internet? Redundancy. If the
+complete IT infrastructure were redundant, then computers would be secure.
+Thus, every problem in cybersecurity can be solved by creating a redundant
+equivalent outside computers. In order to have perfect security and 
+useability it is necessary and sufficient to expose to the public internet
+just redundant public information. Everything else should not be on any server.
+Even in the case of a leak of bytes, no leak of bytes should ever have any
+consequences on any human being. It is not an earthquake. It is just something
+meaningless. The problem is not the disclosure of privacy per se, but the
+whole problem is in the treatment of people by other humans and institutions,
+who instead of helping, choose to enforce something meaningless and
+irrelevant. 
