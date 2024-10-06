@@ -317,8 +317,8 @@ Consider the training set $z_1, \dots, z_n$ denoting a sequence of points
 where each $z_i$ is the point $P$. Given this traning set of $n$ complex
 numbers, we want to predict the point $P$. 
 
-After a lot of training by GPUs and CPUs of the distributed public domain
-internet, we obtained the predictor $f: {P} \to {P}$ defined by:
+After a lot of training by GPUs and CPUs on the distributed public domain
+internet, we obtained the predictor $f: \{z\} \to \{z\}$ defined by:
 
 $$f(z) = z \text{ for all } z.$$
 
