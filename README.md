@@ -2,15 +2,15 @@
 
 **Abstract**
 
-This paper introduces public domain internet as a special case of a
-concept which we name public domain programming interface. It is based
-on the dichotomy between public and not public.
+This paper introduces public domain internet as a special case of a concept
+which we name public domain programming interface. It is based on the dichotomy
+between public and not public.
 
 **Introduction**
 
 In mathematics, there exists a notion of a partition. If $X$ is a set, then a
-partition of the set $X$ is any collection of sets
-$A_{1}, A_{2}, A_{3}, \dots$, such that:
+partition of the set $X$ is any collection of sets $A_{1}, A_{2}, A_{3}, \dots$,
+such that:
 
  - $$A_i \subseteq X \text{ for each } i$$,
  - $$A_i \cap A_j = \emptyset \text{ for all } i \neq j$$,
@@ -164,17 +164,43 @@ Module PublicDomainInterface.
 End PublicDomainInterface.
 ```
 
-## A blink at history
+# A blink at history
 
 It is probably true that any nonsense can be made formal truth. One can come up
 with any number of arbitrary axioms or definitions and formalize anything. As
 long as nobody finds a contradiction, the theory is considered or believed to
 be consistent or true. Before machine-proof-checkers like Coq it was very hard
-to be sure about formal reasoning. Although in society
-in general everything is formalized to some extent, many such formal structures
-are arbitrary and can be changed. We are usually trained to exist inside of
-those formal structures, but we are rarely invited to change them or to even
-think about them. 
+to be sure about formal reasoning. Although almost everything is
+formalized to some extent, many such formal structures are arbitrary and can be
+changed. We are usually trained to exist inside of those formal structures, but
+we are rarely invited to change them or to even think about them. 
+
+# Exercises
+
+**Mathematics**
+
+*Exercise 0 Define public domain programming interface.
+*Exercise 1 Give an axiomatic definition of the public domain internet. 
+*Exercise 2 Formalize in set theory.*
+*Exercise 3 Formalize in category theory.*
+*Exercise 4 Formalize in homotopy type theory.*
+*Exercise 5 Formalize in Coq.*
+
+*Exercise 7 Collect data on the public internet.*
+
+**Data mining*
+Implement a data miner. Pick any data you want and make a program that collects
+data. For example, listen on port 80. Trafic on port 80 provides data about the
+public internet. If you listen on port 80 for some time you would start to see
+HttpRequests, time and IPv4 address of a host that made a request.
+
+*Exercise 8 Analyse data with R. Give at least 10 interpretations of the data.*
+*Exercise 9 Write a paper.*
+
+**Computer Science**
+
+*Exercise 10 Write public domain transport protocol specification and public
+domain internet specification.* 
 
 Euler is considered to be one of the most productive mathematicians ever to
 live considering just the amount of words in mathematical papers. One
@@ -242,6 +268,10 @@ like Galois.
 It is easy to declare disagreement with axioms 1 and 2 or with the definition of the
 public domain internet informally. But it is very hard, expensive and pointless
 to argue against it formally or rigorously (Why?).
+
+## Research
+
+
 
 Currently, almost all users of the public domain internet are some malicious programs.
 From 21.09.2024 until 06.10.2024 the public domain internet has logged around
@@ -376,11 +406,11 @@ formal legal interpretation. That does not have to do anything with AI and
 it has everything to do with relations between humans in every sense.
 
 For example, every cybersecurity question or AI-safety question is determined
-by a an interpretatiton. Cyberattacks like ransomware attacks
+by formal legal interpretatiton. Cyberattacks like ransomware attacks
 are not a problem at all. The problem lies just in our interpretation of such
 attacks. It is the legal structure and every legal, financial and existential
-pressure that appear as a ransomware problem. But in a normal society, any
-transformation of bytes should not have any effect on a well-being of a human
+pressure that appear as a ransomware problem. But in a normal society, such
+transformations of bytes should not have any effect on a well-being of a human
 being. The fact that many transformations of bytes can lead to bad situations
 is a human problem of dealing with a situation and it has nothing to do with
 bytes.
@@ -397,3 +427,7 @@ meaningless. The problem is not the disclosure of privacy per se, but the
 whole problem is in the treatment of people by other humans and institutions,
 who instead of helping, choose to enforce something meaningless and
 irrelevant. 
+
+The public domain internet is an interesting idea and has deep connections to
+many other fields, but most notably it provides a model of an environment in
+which human cooperation is most natural and usefull. 
