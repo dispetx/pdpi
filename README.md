@@ -185,22 +185,26 @@ we are rarely invited to change them or to even think about them.
 *Exercise 3 Formalize in category theory.*
 *Exercise 4 Formalize in homotopy type theory.*
 *Exercise 5 Formalize in Coq.*
+*Exercise 6
 
 *Exercise 7 Collect data on the public internet.*
 
-**Data mining*
+**Data mining**
 Implement a data miner. Pick any data you want and make a program that collects
 data. For example, listen on port 80. Trafic on port 80 provides data about the
-public internet. If you listen on port 80 for some time you would start to see
-HttpRequests, time and IPv4 address of a host that made a request.
+public internet. If you listen on port 80 you can seewould start to see
+HTTP requests, time and IPv4 address of a host that made a request.
 
 *Exercise 8 Analyse data with R. Give at least 10 interpretations of the data.*
 *Exercise 9 Write a paper.*
 
 **Computer Science**
 
-*Exercise 10 Write public domain transport protocol specification and public
-domain internet specification.* 
+*Exercise 10 Write public domain transport protocol specification, public
+domain internet specification and a dynamic public domain internet host
+configuration protocol.* 
+
+*Exercise 11* Implement Zeta function.
 
 Euler is considered to be one of the most productive mathematicians ever to
 live considering just the amount of words in mathematical papers. One
@@ -209,69 +213,59 @@ $\frac{\pi^2}{6}$. The Zeta function is an infinite series defined by:
 
 $$\zeta(s) = \sum_{n=1}^{\infty} \frac{1}{n^{s}}$$
 
-Euler did not have a formal proof but he was convinced since he calculated
-both sides to 20 decimal places.
+Euler did not have a formal proof but he was convinced that those statements
+are true, since he calculated both sides to 20 decimal places. Most importantly,
+he rewrote the Zeta function as an infinite product of primes, which argument
+provides the only new proof of the statement that there are infinitely many prime
+numbers since Euclid. Some questions related to the generalisations of the Zeta
+function are considered to be one of the most important questions in pure
+mathematics. 
 
-He also rewrote the Zeta function as an infinite product of primes and some
-questions related to the generalisations of the Zeta function are considered
-to be one of the most important questions in pure mathematics. That branch
-of mathematics, namely number theory, can be considered as one of the most
-applied areas of mathematics, specifically when one considers its use in
-computers.
-
-A lot of other
-mathematicians were involved in this development, but one of the most important
-contributions was the introduction of congruence by Gauss in 1801. Galois, a 
-mathematican who was shot in a duel, made fundamental discoveries which later
-motivated Grothendieck to do the impossible. In the mean time, another french
-mathematician De Moivre had to run for his life from France to England, where he 
-could not find employment, had to survive gambling in the coffe-houses of London
-and wrote the first book on probability theory. Galois was expelled from the
-university due to its political activities. Grothendieck dissapeared similarly.
-Grothendieck died in 2014 and is by many considered to be the greatest
-mathematician of the 20th century. 
+Number theory can be considered as one of the most applied areas of pure
+mathematics, specifically when one considers its use in computers. One of the most
+important contributions was an introduction of congruence by Gauss in 1801. At the
+same time, Galois, a mathematican who was shot in a duel, made fundamental
+discoveries in algebra and is considered to be a father of abstract algebra. 
+Little before Galois, another french mathematician De Moivre had to run for his
+life from France to England, where he could not find employment, had to survive
+gambling in the coffe-houses of London and wrote the first book on probability
+theory. Galois was expelled from the university due to its political activities.
+Grothendieck dissapeared under similar "public domain" motivations and died in
+2014 and is by many considered to be the greatest mathematician of the 20th century. 
 
 Although Gauss was greatfull because he was recieving support from some
 authority and hence could focus on pure mathematics, it is very hard to believe
-that Gauss would say anything that could put his position in danger.
-In contrast, we can assume that Galois and Grothendieck would not think,
-but express their concerns.
-
-The most famous student of Grothendieck, Pierre Deligne,
-spoke about equality in mathematics at the memmorial conference in honor of
-Vladimir Voevdovsky of the Institute of Advanced Study at Princeton, who was
-inspired by Grothendieck and was one of the
-first mathematicians who relied on computers to check mathematical proofs.
-At the end of the talk in an informal remark, Deligne expressed his concerns and
-drew a paralel between the axiomatic aproach envisioned by Voevodsky, in which he
-wanted to make it impossible for some statements to be true, and the language of
-1984 by Orwell, in which it is supposed to be impossible to produce a heretical
-thought. 
+that Gauss would say anything that could put his position in danger. In contrast,
+we can assume that Galois and Grothendieck would not think, but express their
+concerns. The most famous student of Grothendieck, Pierre Deligne, spoke about
+equality in mathematics at the memmorial conference in honor of Vladimir Voevodsky
+of the Institute of Advanced Study at Princeton, who was inspired by Grothendieck
+and was one of the first mathematicians who relied on computers to check
+mathematical proofs. At the end of the talk in an informal remark, Deligne expressed
+his concerns and drew a paralel between the axiomatic aproach envisioned by
+Voevodsky, in which he wanted to make it impossible for some statements to be true,
+and the language of 1984 by Orwell, in which it is supposed to be impossible to
+produce a heretical thought. 
 
 Grothendieck was born in Berlin in 1928 in a country where heresy was expensive.
 A 100 years later Germany is one of the safest countries in the world to express
 heresy. In principle, we would like to believe that Germany is as safe as any
 other western democratic country. Let us look at a few counter examples. The best
-known is the story of Julian Assange. Around the same time, Aaron Swartz
-could not handle the pressure resulting from his political activism and commited
-suicide in 2011. In 2013 he was posthumously inducted into the Internet Hall of
-Fame.
+known is the story of Julian Assange. Around the same time, Aaron Swartz could not
+handle the pressure resulting from his political activism and commited suicide in
+2011. In 2013 he was posthumously inducted into the Internet Hall of Fame.
 
 I am sure that this paper will at first appear as a heresy, as something one should
-not even think about or just as an abuse of notation and language.
-
-There is nothing new in this paper in the terms of structure. It is not like inventing
-packet-switching around 1959 by Paul Baran, or implementing UNIX by Ken Thompson ten 
-years later. It is more like adding the number 0 or imagining a concept of a group
-like Galois.
+not even think about or just as an abuse of notation and language. There is nothing
+new in this paper in the terms of structure. It is not like inventing packet-switching
+around 1959 by Paul Baran, or implementing UNIX by Ken Thompson ten years later.
+It is more like adding the number 0 or imagining a concept of a group like Galois.
 
 It is easy to declare disagreement with axioms 1 and 2 or with the definition of the
 public domain internet informally. But it is very hard, expensive and pointless
 to argue against it formally or rigorously (Why?).
 
 ## Research
-
-
 
 Currently, almost all users of the public domain internet are some malicious programs.
 From 21.09.2024 until 06.10.2024 the public domain internet has logged around
@@ -293,13 +287,16 @@ long, but that certainly tells us something about the society. That is the main 
 the public domain internet - to provide some data on society. 
 
 Logs of an exposed web server provide information about the requests and responses. 
-They should be public. If the IP address associated with a particular internet service
-is not advertised, does the exposure of server logs constitute a violation of
-privacy of attackers? That is also more a legal question then a technical one. 
-But note that all legal questions are at the end questions in pure mathematics or
-programming questions because they exhibit a formal structure. It is interesting
-that very small number of people are interested in such class of problems which 
-have a great effect on the environment in which they live.
+They can be public. Why is the case that for all web servers, server logs are under
+a key. First, that is not true since there exists one public domain internet
+host where such data is public. If the IP address associated with a particular
+internet service is not advertised, does the exposure of server logs constitute
+a violation of privacy of attackers? That is also more a legal question then a
+technical one. But note that all legal questions are at the end technical questions
+or questions in pure mathematics or programming questions because they exhibit a
+formal structure. It is interesting that very small number of people are interested
+in such class of problems which have a great effect on the environment in which
+they live.
 
 ### Something will occur
 
@@ -347,8 +344,8 @@ internet, we obtained the predictor $f: \{z\} \to \{z\}$ defined by:
 
 $$f(z) = z \text{ for all } z.$$
 
-Machine learning is the process of finding an appropriate such predictor
-functions. If a predictor predicts well no one is concerned about if all
+Machine learning is the process of finding an appropriate such predictors.
+If a predictor predicts well no one is concerned about if all
 assumptions hold or is something true. The notion of truth in mathematics
 is very different then in other contexts. In mathematics, truth has nothing
 to do with the semantic content of mathematical statements but only with
@@ -357,9 +354,10 @@ just have the same truth value in the sense that a statement $A$ is true,
 when $B$ is true and vice versa. It does not tell anything about the semantic
 relationship between the two. In principle, one could do mathematics just 
 as well without using the words true or false. 
-Statistics was developing in
-science and at the start was very important to have a belief that your
-model is true in some sense or that you are using it appropriately.
+
+Statistics was developing in science and at the start was very important to
+have a belief that your model is true in some sense or that you are using it
+appropriately.
 Over the years, those who asked the questions regarding the validity of
 assumptions, came to the realisation that is very hard or impossible to
 check if your assumptions hold. Most of the time one is not sure but 
@@ -375,12 +373,13 @@ in markets, design, science and engineering, all those present a negative
 development with respect to the society. If there was no Apple or Microsoft,
 everyone would use superior command-line interfaces and the public domain
 would be more healthy. People would not stare for hours at the screen
-scrolling or pushing buttons, but they would just have an empty piece of paper.
+scrolling or pushing buttons, but they would just have an empty piece of paper
+and piece of mind.
 
 The failure of the Linux kernel and its distributions comes from equating
 desktop users with point-and-click users, instead of assuming that every 
 user is a command-line user. Similar failure is reflected in the talk by
-Mike Acton, one of the most famous game developers. At the C++ confrerence
+Mike Acton, one of the most famous game developers. At the C++ conference
 in 2014, Mike preached about the fundamental failure of most programmers
 to have in mind the basic distinction between the hardware and the software.
 At the same time, Mike fails to see a distinction between development and
@@ -406,14 +405,14 @@ formal legal interpretation. That does not have to do anything with AI and
 it has everything to do with relations between humans in every sense.
 
 For example, every cybersecurity question or AI-safety question is determined
-by formal legal interpretatiton. Cyberattacks like ransomware attacks
+by formal legal interpretation. Cyberattacks like ransomware attacks
 are not a problem at all. The problem lies just in our interpretation of such
 attacks. It is the legal structure and every legal, financial and existential
 pressure that appear as a ransomware problem. But in a normal society, such
 transformations of bytes should not have any effect on a well-being of a human
 being. The fact that many transformations of bytes can lead to bad situations
 is a human problem of dealing with a situation and it has nothing to do with
-bytes.
+bytes. 
 
 What is the most important characteristic of internet? Redundancy. If the
 complete IT infrastructure were redundant, then computers would be secure.
@@ -425,9 +424,29 @@ Even in the case of a leak of bytes, no leak of bytes should ever have any
 consequences on any human being. It is not an earthquake. It is just something
 meaningless. The problem is not the disclosure of privacy per se, but the
 whole problem is in the treatment of people by other humans and institutions,
-who instead of helping, choose to enforce something meaningless and
-irrelevant. 
+who instead of helping, choose to enforce something meaningless and irrelevant. 
 
 The public domain internet is an interesting idea and has deep connections to
 many other fields, but most notably it provides a model of an environment in
-which human cooperation is most natural and usefull. 
+which human cooperation is most natural, usefull and efficient. It is just
+a historical accident of the release of the Linux kernel under a GPL license
+that provides a basis for this paper. Without those two accidents and many
+more, I would never care about the computer. Without GNU and Linux we could
+live in a parallel universe with very different rules, regulations and formal
+structure surrounding the use of machines and software. 
+
+As time passes more and more laws and regulations will be interpreted by
+software. If a program says X, a human always needs to be able to say NO.
+The same should hold if a program is a human. This is the most natural assumption
+which would imply that the most natural formal structure is non-binding or
+some sort of a week formal structure. One that is flexible. One which can easily
+be ignored. That is science. You have X and you just assume not X and see where
+it goes. 
+
+Exercise 12. Rewrite regulations concerning open source software.
+
+Exercise 13. Look at the Linux kernel through the dichotomy of public and not-public.
+
+Exercise 13. Commit to your local Linux tree and test it.
+
+Exercise 14. Make a pull request.
