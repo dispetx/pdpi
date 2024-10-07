@@ -1,5 +1,7 @@
 # The Public Domain Programming Interface
 
+*In God we trust, all others bring data.*
+
 **Abstract**
 
 This paper introduces public domain internet as a special case of a concept
